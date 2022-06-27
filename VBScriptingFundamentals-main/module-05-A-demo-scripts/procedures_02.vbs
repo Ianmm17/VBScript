@@ -18,4 +18,5 @@ WScript.Echo "The sum of the two numbers : " & total
 'A Function procedure -- can return a value. 
 Function Add(num1, num2)
     sum = num1 + num2
+    Add = sum ' This will return the value
 End Function
